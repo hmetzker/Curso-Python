@@ -1,2 +1,2 @@
 # Curso-Python
-Aprendendo Python no Ipea
+Aprendendo Python/Ipea
