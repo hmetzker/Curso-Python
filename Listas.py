@@ -1,18 +1,14 @@
 import random
 
 def generate():
-    l = list()
-    for i in range(10):
-        l.append(random.randint(0, 10))
-    return l
+    lista = list()
+    for i in range(random.randint(0, 1)):
+        lista.append(random.randint(0, 10))
+    return lista
 
 if __name__ == '__main__':
-    a = generate()
-    print(a)
-    print(a.pop())
-    print(a.pop())
-    print(a)
-    for i in range(len(a)):
-        print(i)
-        print(a[i])
-        print(f'O i é {i} e o a[i] é {a[i]}')
+  a = generate()
+  if len(a) == 0:
+      print('a lista está vazia')
+  else:
+      print('a lista não está vazia')
