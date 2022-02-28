@@ -1,12 +1,12 @@
 # trabalhando com lista do checkIO
 
 def easy_unpack(elements: tuple) -> tuple:
-    result = []
+    result = 0
     l = list(elements)
     for i in range(len(l)):
-        result=sum(l)
-        result=result/len(l)
+        result=result+l[i]
 
+    result=result/len(l)
     return result
 
 if __name__ == '__main__':
