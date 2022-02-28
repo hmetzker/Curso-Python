@@ -4,17 +4,11 @@ def easy_unpack(elements: tuple) -> tuple:
     result = []
     l = list(elements)
     for i in range(len(l)):
-        if i==0 or i==2:
-            result.append(l[i])
-        else:
-            continue
+        if i==0 or i==2: result.append(l[i])
 
     l = l[::-1]
     for i in range(len(l)):
-        if i==1:
-            result.append(l[i])
-        else:
-            continue
+        if i==1: result.append(l[i])
 
     return result[0], result[1], result[2]
 
