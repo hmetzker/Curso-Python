@@ -12,6 +12,7 @@ class Funcionario:
 
     @sal.setter
     def sal(self, novo_sal):
+        print(f'novo_sal = {novo_sal}')
         raise ValueError("Somente na função calcula_sal")
 
     def calcula_sal(self):
