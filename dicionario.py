@@ -1,3 +1,5 @@
+# exercício da aula 5
+
 d1 = {'key1': 1, 'key2': 2, 'key3': 3}
 print(d1)
 d1['key4']=0
