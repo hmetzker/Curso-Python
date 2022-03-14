@@ -1,6 +1,6 @@
 import sys
 
-"""valores=['haroldo','fátima','bianca','bruna']
+valores=['haroldo','fátima','bianca','bruna']
 tabela=dict()
 
 for i in range(len(valores)):
@@ -40,9 +40,8 @@ if n in known:
     sys.exit()
 res = known[n-1] + known[n-2]
 print(res)
+
 """
-
-
 def exemplo3():
     global contagem
     contagem += 1
@@ -57,3 +56,4 @@ if __name__ == '__main__':
     known = {0: 0, 1: 1, 2: 2, 3: 3, 4: 4}
     print(exemplo3())
     print(exemplo4())
+"""
