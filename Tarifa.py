@@ -158,6 +158,7 @@ if __name__ == '__main__':
                 elif i == 2:
                     saida_te = f'TARIFA DE EQUILÍBRIO = '
 
+#                saida = f'{saida_te}{str(round(t_eq[i],3))}'
                 saida = f'{saida_te}{t_eq[i]}'
                 label_teq = Label(Janela, text=saida, padx=20).grid(row=i+13, column=0, stick=W)
 
