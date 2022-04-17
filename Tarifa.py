@@ -17,7 +17,6 @@ from tkinter import *
 
 
 class CalculaTarifa:
-
     def __init__(self, ano_atipico, ano_referencia, tarifa_vigente, perda_custo, planilha_BD2, lista_excel):
 # variáveis de entrada
         self.ano_atipico = ano_atipico                      # ano da queda de oferta/ demanda de pax
